@@ -3374,6 +3374,17 @@
 				)
 			)
 		)
+		(property "MPN" "2541FV-15P-B"
+			(at 40.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "756e3adb-8e69-443b-a62a-32ab5863ff36")
 		)
@@ -3483,6 +3494,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2541FV-15P-B"
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3927,6 +3949,17 @@
 				)
 			)
 		)
+		(property "MPN" "DS1023-32-2x3V8"
+			(at 179.07 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "98833fd4-ef3e-4497-8255-4d1b4924ab50")
 		)
@@ -4100,6 +4133,17 @@
 				)
 			)
 		)
+		(property "MPN" "DS1013-10SSiB1-B-0"
+			(at 99.06 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "834ff132-1489-4508-bc3f-021e170e7596")
 		)
@@ -4215,10 +4259,21 @@
 				)
 			)
 		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 100.33 46.99 0)
+		(property "MPN" "2541WV-03P"
+			(at 101.6 26.67 0)
 			(hide yes)
-			(show_name yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" "M254D-02-065-B"
+			(at 101.6 26.67 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -4378,6 +4433,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 107.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0603F2200TS"
+			(at 107.95 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,6 +4857,17 @@
 				)
 			)
 		)
+		(property "MPN" "GL0603UY01"
+			(at 92.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7ae3a18-fc57-4894-971c-173753201fe5")
 		)
@@ -5030,6 +5107,17 @@
 				)
 			)
 		)
+		(property "MPN" "DS1013-06SSiB1-B-0"
+			(at 139.7 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c3a8379d-1e51-414b-abcf-d23af521abd1")
 		)
@@ -5199,6 +5287,17 @@
 				)
 			)
 		)
+		(property "MPN" "FRC0603F2200TS"
+			(at 107.95 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ad8fd3a-dc1b-4c0c-b50d-1c263007938f")
 		)
@@ -5290,6 +5389,17 @@
 				)
 			)
 		)
+		(property "MPN" "GL0603UR01"
+			(at 92.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e08513d-50fa-4084-9d6f-2edaa06822e0")
 		)
@@ -5361,6 +5471,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 107.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0603F2200TS"
+			(at 107.95 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,6 +5572,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 92.71 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GL0603UG01"
 			(at 92.71 74.93 0)
 			(hide yes)
 			(show_name no)
