@@ -6,11 +6,9 @@ A PCB to use an Arduino Nano as an In-Circuit Serial Programmer (ISP) for progra
 
 ## Overview
 
-This board allows an Arduino Nano to function as an ISP programmer, enabling you to burn bootloaders to other Arduinos and program AVR chips like the ATmega series, or ATtiny microcontrollers.
-
-### What is Arduino as ISP?
-
-Arduino ISP turns your Arduino into an in-circuit programmer to re-program AVR chips. The bootloader is a small piece of code (usually 512 bytes) that executes at every reset and allows sketches to be uploaded via serial/USB. To program the bootloader and configure fuses properly, you need an ISP programmer that connects to the microcontroller's SPI pins (MOSI, MISO, SCK) and reset pin.
+This board makes it easier for an Arduino Nano to function as an ISP programmer, enabling you to burn bootloaders to other Arduinos and program AVR chips like the ATmega series, or ATtiny microcontrollers.
+To do that, it connects the Arduino Nano correctly to the microcontroller's SPI pins (MOSI, MISO, SCK) and reset pin.
+The board is designed in a way that the 6-pin socket header can be directly soldered to the board vertically, while the 10-pin header can accept a flat cable with an adapter on the other end, similiar to the many USBASP clones.
 
 ## Hardware
 
@@ -19,14 +17,14 @@ The PCB includes:
 - **Two 15-pin headers** for connecting to an Arduino Nano:
   - **J1 (Analog)**: Pins for A0-A7, AREF, 3V3, and power
   - **J2 (Digital)**: Pins for D0-D13, GND, and power
-- **AVR-ISP-6 connector (J4)**: Standard 6-pin ISP programming header for target devices
-- **Status LED (D3)**: Visual feedback during programming
+- **AVR-ISP-10 connector (J3)**: Standard 10-pin ICSP programming header for target devices
+- **AVR-ISP-6 connector (J4)**: Standard 6-pin ICSP programming header for target devices
+- **3 Status LEDs**: Heartbeat, Error and Program
 - **Pull-up resistors (R2, R3)**: 220Ω current limiting for LEDs
-- **Mounting holes**: For securing the board
 
 ### Pin Mapping
 
-The ISP programming uses the following connections from the Nano to the 6-pin ISP connector:
+The ISP programming uses the following connections from the Nano to the 6-pin ICSP connector:
 
 | ISP Pin | Signal | Nano Pin |
 |---------|--------|----------|
@@ -36,6 +34,13 @@ The ISP programming uses the following connections from the Nano to the 6-pin IS
 | 4 | MOSI | D11 |
 | 5 | RST | D10 |
 | 6 | GND | GND |
+
+The standard ICSP header pinout looks like this, with the key (if present) next to SCK
+|   |   |
+|---|---|
+| MISO | VCC |
+| ] SCK | MOSI |
+| RST | GND |
 
 ## Usage
 
