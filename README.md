@@ -22,6 +22,13 @@ The PCB includes:
 - **3 Status LEDs**: Heartbeat, Error and Program
 - **Pull-up resistors (R2, R3)**: 220Ω current limiting for LEDs
 
+### Assembly
+- Start with the SMD resistors
+- Next solder the LEDs
+- Then the 2 6-Pin connectors
+- Next solder the 10-Pin connector
+- Do the 2 Arduino headers last
+
 ### Pin Mapping
 
 The ISP programming uses the following connections from the Nano to the 6-pin ICSP connector:
