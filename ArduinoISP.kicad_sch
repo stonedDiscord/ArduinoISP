@@ -2403,6 +2403,12 @@
 		)
 	)
 	(junction
+		(at 142.24 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00fa10af-9759-435b-b83b-7ac5e686154d")
+	)
+	(junction
 		(at 115.57 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2430,7 +2436,7 @@
 		(at 101.6 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61bc1134-072d-4684-8375-8d866df22720")
+		(uuid "7b13d091-0d64-4085-9249-163f9a2bfd8a")
 	)
 	(junction
 		(at 30.48 21.59)
@@ -2448,7 +2454,13 @@
 		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bafe5035-5a25-458f-83a8-1e6a68a3ad28")
+		(uuid "e4ce5e78-9f00-4126-9c8e-7c0cb83c4a74")
+	)
+	(junction
+		(at 142.24 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f33ce8e3-3694-4112-b2c3-435bebd392c3")
 	)
 	(no_connect
 		(at 17.78 57.15)
@@ -2530,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 152.4 53.34)
+			(xy 101.6 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2720,6 +2732,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 53.34) (xy 181.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de71577-8593-4413-9afe-ebbc4eb7c6a1")
+	)
+	(wire
+		(pts
 			(xy 17.78 34.29) (xy 35.56 34.29)
 		)
 		(stroke
@@ -2800,6 +2822,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 30.48) (xy 181.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca61950f-0686-45b3-840d-b559f6c6cf90")
+	)
+	(wire
+		(pts
 			(xy 55.88 34.29) (xy 71.12 34.29)
 		)
 		(stroke
@@ -2840,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 30.48) (xy 152.4 30.48)
+			(xy 101.6 30.48) (xy 142.24 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2908,6 +2940,16 @@
 		)
 		(uuid "0548dd48-82f0-4dfd-b7c7-8c6d6a53966d")
 	)
+	(label "*D10{slash}SS"
+		(at 168.91 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a196823-bebf-482d-a05d-edd0f030d64e")
+	)
 	(label "D8"
 		(at 88.9 85.09 180)
 		(effects
@@ -2959,6 +3001,16 @@
 		(uuid "4df5306c-d1f8-4f35-9e22-6412b2c40f94")
 	)
 	(label "D12{slash}MISO"
+		(at 168.91 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e610d97-7923-4054-8487-b0ec4e4978c2")
+	)
+	(label "D12{slash}MISO"
 		(at 88.9 38.1 180)
 		(effects
 			(font
@@ -2967,6 +3019,16 @@
 			(justify right bottom)
 		)
 		(uuid "507d1b9c-96b5-46c7-9916-cbf625960f17")
+	)
+	(label "*D11{slash}MOSI"
+		(at 168.91 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56d4c8e9-4135-45c9-add6-44775c01f2a5")
 	)
 	(label "A7"
 		(at 17.78 52.07 0)
@@ -3009,7 +3071,7 @@
 		(uuid "760a4838-cda5-4b2f-81a0-41a8774a8ea5")
 	)
 	(label "D12{slash}MISO"
-		(at 139.7 38.1 180)
+		(at 129.54 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3089,7 +3151,7 @@
 		(uuid "af22c88c-fcb5-4412-b247-91bcb92cd0a1")
 	)
 	(label "*D10{slash}SS"
-		(at 139.7 45.72 180)
+		(at 129.54 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3119,7 +3181,7 @@
 		(uuid "c7c752d9-073c-43c6-aa61-7daad5f6cc5f")
 	)
 	(label "D13{slash}SCK"
-		(at 139.7 43.18 180)
+		(at 129.54 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3127,6 +3189,16 @@
 			(justify right bottom)
 		)
 		(uuid "c9bd16ae-1993-4b3c-b946-d7d8f02190f7")
+	)
+	(label "D13{slash}SCK"
+		(at 168.91 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd5004c0-4f0e-4a14-ad00-5d00dc420fd1")
 	)
 	(label "D2"
 		(at 71.12 52.07 180)
@@ -3179,7 +3251,7 @@
 		(uuid "dc63ba23-aaf4-4703-b48b-fd89fd9c2302")
 	)
 	(label "*D11{slash}MOSI"
-		(at 139.7 40.64 180)
+		(at 129.54 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,6 +3860,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:AVR-ISP-6")
+		(at 179.07 43.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32d88f72-440b-4a5e-bc1e-a2c2dccde22d")
+		(property "Reference" "J5"
+			(at 187.96 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ISP-6-Socket"
+			(at 187.96 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ArduinoISP:IDC-Header_2x03_P2.54mm_Horizontal"
+			(at 185.42 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.455 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Atmel 6-pin ISP connector"
+			(at 179.07 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "98833fd4-ef3e-4497-8255-4d1b4924ab50")
+		)
+		(pin "3"
+			(uuid "9629efe4-f45d-41d7-b98f-9a20dc8d71e3")
+		)
+		(pin "2"
+			(uuid "ae07b021-d32f-41a4-84d7-89cdc2f8ab67")
+		)
+		(pin "1"
+			(uuid "195e7829-0e7c-4f44-a3a8-0bf4ad99cb23")
+		)
+		(pin "6"
+			(uuid "a1dc1486-5eaf-4e49-8c38-0134a1d0ef26")
+		)
+		(pin "5"
+			(uuid "a18634ba-a1b9-4cd0-b3de-67a730c9eadf")
+		)
+		(instances
+			(project "ArduinoISP"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 106.68 26.67 270)
 		(unit 1)
@@ -3889,7 +4056,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AVR-ISP-10"
+		(property "Value" "ISP-10"
 			(at 107.95 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4964,7 @@
 	)
 	(symbol
 		(lib_id "Connector:AVR-ISP-6")
-		(at 149.86 43.18 0)
+		(at 139.7 43.18 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4809,7 +4976,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc7aac26-6e7d-4a42-99ad-f40e134ff33f")
 		(property "Reference" "J4"
-			(at 158.75 40.6399 0)
+			(at 148.59 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4819,8 +4986,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AVR-ISP-6"
-			(at 158.75 43.1799 0)
+		(property "Value" "ISP-6-Pins"
+			(at 148.59 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4831,7 +4998,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoISP:IDC-Header_2x03_P2.54mm_Horizontal"
-			(at 156.21 41.91 90)
+			(at 146.05 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4842,7 +5009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.245 57.15 0)
+			(at 172.085 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +5020,7 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
-			(at 149.86 43.18 0)
+			(at 139.7 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
