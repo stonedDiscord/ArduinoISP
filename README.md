@@ -79,5 +79,9 @@ Connect the Nano to this PCB's headers. The board will provide the 6-pin ISP con
 
 - Be cautious when programming 3.3V devices (Due, Zero, etc.) - ensure the jumper is set correctly.
 
+## Sponsor
+This project is participating in the 2026 [Kicad PCB Design Contest](https://www.pcbway.com/activity/2026-kicad-pcb-design-contest.html).
+[You can check out the project on the PCBway website](https://www.pcbway.com/project/shareproject/Arduino_Nano_ISP_Adapter_d65e29b3.html).
+
 ## Acknowledgements
 - A similiar project for the Arduino Uno can be found at https://github.com/atoomnetmarc/Arduino-as-ISP-shield
